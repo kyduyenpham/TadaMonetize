@@ -1,6 +1,8 @@
 # 🚀 TADA v2 – Fintech Monetization Ecosystem Transformation Case Study
 
-<img width="450" alt="dashboard" src="https://github.com/user-attachments/assets/ecc7e5cb4-d6a9-4ae4-83dd-fbb9daca2b85" />
+<p align="center">
+  <img src="./TADA_Covers.png" width="500" />
+</p>
 
 *A real project where I worked as a Business Analyst → Product Owner to transform a content platform into a fintech-based monetization ecosystem.*
 
@@ -24,24 +26,24 @@
 
 # Part 1: Problem Statement & Current State Analysis
 
-TADA v2 is a **9-month transformation (Jul 2024–Apr 2025)** to rebuild a Vietnamese content platform (webtoon/novel) into a **fintech-powered monetization ecosystem** backed by Indonesian investors.
+TADA v2 is a **9-month transformation** project to rebuild a Vietnamese content platform into a **fintech-powered monetization ecosystem**.
 
 ### ⚠️ Key AS-IS Challenges
-- Platform offered **no monetization** (free read–upload–react only)  
-- **No revenue engine** for creators/users  
-- **Manual Excel-based reporting** for investors → inconsistent, error-prone  
-- Zero transparency across content, revenue, and creator performance  
-- Low engagement due to no incentive/referral system  
-- No wallet architecture, no automated revenue settlement  
-- Fragmented data → not suitable for scalable growth  
+- No monetization  
+- No revenue engine  
+- Manual Excel reporting  
+- No transparency  
+- No incentive/referral logic  
+- No wallet system  
+- Fragmented data  
 
 ### 🔎 AS-IS Snapshot
 
-<img width="1100" src="./05_AS-IS_Diagram.pdf" />
+<p align="center">
+  <img src="./BPMN%20AS-IS%20Diagram%20.png" width="1100" />
+</p>
 
-*Figure 1: AS-IS Process Flow (Manual reporting, no revenue logic)*  
-
-✨ This analysis revealed the need for a structured monetization engine, wallet system, and data transparency layer.
+*Figure 1: AS-IS Process Flow*  
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -50,23 +52,20 @@ TADA v2 is a **9-month transformation (Jul 2024–Apr 2025)** to rebuild a Vietn
 # Part 2: Goals, Alignment & Success Measures
 
 ### 🎯 Key Goals
+- Build 7 revenue streams  
+- Launch bilingual dashboards  
+- 90% automation  
+- 25% increase creator retention  
+- Real-time reporting  
+- Configurable Revenue Rule Matrix  
+- Auditability & traceability  
 
-1. Build **7 revenue streams**, automated end-to-end  
-2. Launch **bilingual (EN/VN) revenue dashboards** for investors/creators  
-3. Automate **90%** of revenue calculation & wallet settlement  
-4. Achieve **25% increase** in creator retention  
-5. Reduce monthly reporting time from **2–3 days → real-time**  
-6. Introduce a **configurable Revenue Rule Matrix** editable without engineering  
-7. Enable full **auditability & traceability** of revenue actions  
-
-### 📈 KPIs & Success Measures
-- 90% of revenue flows automated  
-- 50% fewer revenue-related support tickets  
-- Real-time earnings update  
-- 100% bilingual investor reporting  
-- 0% manual Excel dependencies  
-
-✨ These KPIs guided design, backlog prioritization, and investor alignment.
+### 📈 KPIs
+- 90% automated flows  
+- 50% fewer tickets  
+- Real-time insights  
+- 100% bilingual  
+- 0% Excel dependency  
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -74,26 +73,21 @@ TADA v2 is a **9-month transformation (Jul 2024–Apr 2025)** to rebuild a Vietn
 
 # Part 3: Proposed Solution & Future State
 
-### 💡 My Approach
-- Re-designed monetization architecture  
-- Introduced wallet-based settlement  
-- Built configurable revenue rules  
-- Designed real-time dashboards  
-- Mapped TO-BE flows for all 7 revenue streams  
-
 ### 🌟 Proposed Solution Highlights
-- **Fintech-grade Wallet System**  
-- **Revenue Engine** (configurable split rules)  
-- **Real-Time Earning Dashboard**  
-- **Referral & Incentive Framework**  
-- **Fraud Prevention Logic**  
-- **Event-driven updates (WebSocket + Redis)**  
+- Wallet system  
+- Revenue engine  
+- Real-time dashboard  
+- Incentive & referral logic  
+- Fraud prevention  
+- WebSocket + Redis  
 
 ### 📦 Future State Architecture
 
-<img width="1100" src="./08_Future State Solution (TO-BE BPMN).pdf" />
+<p align="center">
+  <img src="./TO-BE%20Diagram.png" width="1000" />
+</p>
 
-*Figure 2: TO-BE BPMN – Wallet, Revenue Engine & Settlement*
+*Figure 2: TO-BE BPMN*
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -101,23 +95,11 @@ TADA v2 is a **9-month transformation (Jul 2024–Apr 2025)** to rebuild a Vietn
 
 # Part 4: Stakeholder Analysis
 
-Strong alignment between Vietnam team and Indonesian investors was critical.
+<p align="center">
+  <img src="./RACI_Matrix.png" width="900" />
+</p>
 
-### 👥 Key Stakeholders
-- **Investors (ID)** – high influence, transparency required  
-- **CEO / Product Leadership** – key decision makers  
-- **Tech Lead & Engineers** – development & integration  
-- **Creators** – monetization beneficiaries  
-- **Finance** – compliance & auditing  
-
-### 📌 Tools:
-- Stakeholder Register  
-- RACI Matrix  
-- Communication Plan  
-
-<img width="1100" src="./12_RACI_Matrix.pdf" />
-
-*Figure 3: RACI Matrix*
+*Figure 3: RACI Matrix*  
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -125,24 +107,10 @@ Strong alignment between Vietnam team and Indonesian investors was critical.
 
 # Part 5: Gap List, Requirements & Business Logic
 
-### 🕳️ Gap List (12 Items)
-Examples:
-- No wallet system  
-- Manual reporting  
-- No automated revenue sharing  
-- No configurable revenue rules  
-- No audit trail  
-
-📄 Artifact:  
-- [06_Gap List.pdf](./06_Gap%20List.pdf)
-
-### 📘 Requirements Documents
-- BRD (Full)  
-- Key Requirement Table (MoSCoW)  
-
-📄 Artifacts:  
-- [02_BRD.pdf](./02_BRD.pdf)  
-- [07_Key Requirement table -BRD.pdf](./07_Key%20Requirement%20table%20-BRD.pdf)
+### 📘 Requirements
+- BRD  
+- Key Requirement Table  
+- Gap List  
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -150,20 +118,13 @@ Examples:
 
 # Part 6: System, Data & Revenue Architecture
 
-### 🧠 Revenue Rule Matrix  
-Defines revenue splits for 7 streams.
+### 🔄 Data Flow Diagram
 
-📄 [09_Revenue_Rule_Matrix.pdf](./09_Revenue_Rule_Matrix.pdf)
+<p align="center">
+  <img src="./DFD_Level_1.png" width="1000" />
+</p>
 
-### 🗂 Data Mapping Table  
-Maps all monetization entities.
-
-📄 [10_Data_Mapping_Table.pdf](./10_Data_Mapping_Table.pdf)
-
-### 🔄 Data Flow Diagram  
-Shows event → engine → wallet → dashboard flow.
-
-📄 [11_Data_Flow_Diagram.pdf](./11_Data_Flow_Diagram.pdf)
+*Figure 4: Level-1 DFD*
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -171,35 +132,24 @@ Shows event → engine → wallet → dashboard flow.
 
 # Part 7: Execution, UAT & Dashboard Delivery
 
-### 📌 Execution Highlights
-- Weekly team syncs  
-- Bi-weekly investor reviews  
-- Continuous backlog refinement & sprint planning  
-- Design + tech alignment meetings  
+### 📊 Earning Dashboard Screens
 
-### 🧪 UAT Results
-- 90% automation validated  
-- Revenue engine accuracy confirmed  
-- Settlement logic tested for edge cases  
+<p align="center">
+  <img src="./14_UI_Dashboard_Earning_01b.jpg" width="850" />
+</p>
 
-### 📊 Earning Dashboard
-
-<img width="900" src="./14_UI_Dashboard_Earning_01b.jpg" />
-
-📄 [Dashboard PDF](./14_UI_Dashboard_Earning_01a.pdf)
+📄 Dashboard (PDF):  
+[14_UI_Dashboard_Earning_01a.jpg](./14_UI_Dashboard_Earning_01a.jpg)
 
 🔗 [Back to TOC](#-table-of-contents)
 
 ---
 
 # Part 8: Tools & Methods Used
-
-- **Documentation**: Confluence, Google Docs  
-- **Modeling**: Draw.io, Miro  
-- **Collaboration**: Jira, Zoom  
-- **Architecture**: Redis, WebSocket  
-- **Payment**: Momo / ZaloPay API  
-- **Dashboard**: Internal BI Layer  
+- Jira, Confluence  
+- Figma, Miro  
+- Redis, WebSocket  
+- Momo, ZaloPay API  
 
 🔗 [Back to TOC](#-table-of-contents)
 
@@ -207,56 +157,25 @@ Shows event → engine → wallet → dashboard flow.
 
 # Part 9: Key Deliverables Created
 
-| Artifact | File |
-|---------|------|
-| Project Charter | [01_Project_Charter.pdf](./01_Project_Charter.pdf) |
-| BRD | [02_BRD.pdf](./02_BRD.pdf) |
-| Stakeholder Register | [03_Stakeholder_Register.pdf](./03_Stakeholder_Register.pdf) |
-| Pain Point Table | [04_Pain_Point.pdf](./04_Pain_Point.pdf) |
-| AS-IS Diagram | [05_AS-IS_Diagram.pdf](./05_AS-IS_Diagram.pdf) |
-| GAP List | [06_Gap List.pdf](./06_Gap%20List.pdf) |
-| Key Requirement Table | [07_Key Requirement table -BRD.pdf](./07_Key%20Requirement%20table%20-BRD.pdf) |
-| TO-BE BPMN | [08_Future State Solution (TO-BE BPMN).pdf](./08_Future%20State%20Solution%20(TO-BE%20BPMN).pdf) |
-| Revenue Rule Matrix | [09_Revenue_Rule_Matrix.pdf](./09_Revenue_Rule_Matrix.pdf) |
-| Data Mapping Table | [10_Data_Mapping_Table.pdf](./10_Data_Mapping_Table.pdf) |
-| Data Flow Diagram | [11_Data_Flow_Diagram.pdf](./11_Data_Flow_Diagram.pdf) |
-| RACI Matrix | [12_RACI_Matrix.pdf](./12_RACI_Matrix.pdf) |
-| Communication Plan | [13_Communication_Plan.pdf](./13_Communication_Plan.pdf) |
-| Dashboard (PDF) | [14_UI_Dashboard_Earning_01a.pdf](./14_UI_Dashboard_Earning_01a.pdf) |
+(You can keep your existing deliverables table here)
 
 🔗 [Back to TOC](#-table-of-contents)
 
 ---
 
 # Part 10: Outcomes
-
-### ✔ Business
-- Moved from **zero monetization → fintech ecosystem**  
-- Transparent, bilingual reporting for investors  
-- Scalable foundation for SEA expansion  
-
-### ✔ Product
-- 7 revenue streams  
-- Wallet & revenue engine  
-- Real-time earnings dashboard  
-
-### ✔ Operations
-- 90% automation  
-- Reporting time reduced from 2 days → instant  
-
-🔗 [Back to TOC](#-table-of-contents)
+- Zero → 7 revenue streams  
+- Wallet & revenue engine built  
+- Real-time dashboards  
+- Automation from days → instant  
 
 ---
 
 # Part 11: Key Learnings & Reflection
-
-- Cross-country stakeholder management (VN ↔ Indonesia) requires clarity & cadence  
-- Configurable revenue architecture reduces dev cost  
-- Data modeling is central to monetization flows  
-- Visual diagrams accelerate alignment  
-- A BA becomes a PO when focused on **value delivery**, not just documentation  
-
-✨ This project strengthened my ability to bridge **business + fintech + product strategy**.
+- VN ↔ Indonesia stakeholder management  
+- Configurable revenue architecture  
+- Data-driven monetization  
+- BA → PO transition  
 
 ---
 
